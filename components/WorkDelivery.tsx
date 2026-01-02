@@ -102,35 +102,36 @@ const WorkDelivery = () => {
             </div>
 
             {/* Modal */}
+            {/* Modal */}
             {selectedModel && (
                 <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
                     <div
                         className="absolute inset-0 bg-black/60 backdrop-blur-md animate-in fade-in duration-200"
                         onClick={() => setSelectedModel(null)}
                     ></div>
-                    <div className="relative w-full max-w-2xl bg-slate-900 border border-slate-700 rounded-[2rem] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
+                    <div className="relative w-full max-w-2xl max-h-[90vh] flex flex-col bg-slate-900 border border-slate-700 rounded-3xl md:rounded-[2rem] shadow-2xl overflow-hidden animate-in zoom-in-95 duration-200">
                         {/* Header */}
-                        <div className="p-8 border-b border-white/10 flex justify-between items-start bg-slate-900/50">
+                        <div className="p-6 md:p-8 border-b border-white/10 flex justify-between items-start bg-slate-900/50 shrink-0">
                             <div className="flex items-center gap-4">
-                                <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-500">
+                                <div className="w-12 h-12 rounded-xl bg-blue-500/10 flex items-center justify-center text-blue-500 shrink-0">
                                     <selectedModel.icon size={24} />
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-white">{selectedModel.title}</h3>
-                                    <p className="text-slate-400">{selectedModel.shortDesc}</p>
+                                    <h3 className="text-xl md:text-2xl font-bold text-white leading-tight">{selectedModel.title}</h3>
+                                    <p className="text-sm md:text-base text-slate-400 mt-1">{selectedModel.shortDesc}</p>
                                 </div>
                             </div>
                             <button
                                 onClick={() => setSelectedModel(null)}
-                                className="p-2 hover:bg-white/10 rounded-full transition-colors text-slate-400 hover:text-white"
+                                className="p-2 -mr-2 -mt-2 hover:bg-white/10 rounded-full transition-colors text-slate-400 hover:text-white"
                             >
                                 <X size={24} />
                             </button>
                         </div>
 
                         {/* Content */}
-                        <div className="p-8 bg-slate-950/50">
-                            <p className="text-lg text-slate-300 leading-relaxed mb-8">
+                        <div className="p-6 md:p-8 bg-slate-950/50 overflow-y-auto">
+                            <p className="text-base md:text-lg text-slate-300 leading-relaxed mb-8">
                                 {selectedModel.fullDesc}
                             </p>
 
@@ -145,20 +146,20 @@ const WorkDelivery = () => {
 
                             <div className="bg-blue-500/5 border border-blue-500/10 rounded-xl p-4 flex gap-3">
                                 <div className="mt-1">
-                                    <CheckCircle2 size={20} className="text-blue-400" />
+                                    <CheckCircle2 size={20} className="text-blue-400 shrink-0" />
                                 </div>
                                 <div>
                                     <span className="block text-sm font-bold text-blue-400 uppercase tracking-wide mb-1">Best For</span>
-                                    <p className="text-slate-300">{selectedModel.bestFor}</p>
+                                    <p className="text-sm md:text-base text-slate-300">{selectedModel.bestFor}</p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Footer CTA */}
-                        <div className="p-6 border-t border-white/10 bg-slate-900 flex justify-end">
+                        <div className="p-6 border-t border-white/10 bg-slate-900 flex justify-end shrink-0">
                             <a
                                 href="mailto:hello@sugeevan.com"
-                                className="px-6 py-3 bg-white text-slate-950 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition-all shadow-lg"
+                                className="w-full md:w-auto text-center px-6 py-3 bg-white text-slate-950 rounded-xl font-bold hover:bg-blue-500 hover:text-white transition-all shadow-lg"
                             >
                                 Discuss this model
                             </a>

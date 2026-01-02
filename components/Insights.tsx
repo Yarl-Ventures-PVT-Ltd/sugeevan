@@ -16,7 +16,7 @@ const Insights = ({ posts }: InsightsProps) => {
                         <h2 className="text-4xl font-bold mb-4">Latest insights</h2>
                         <p className="text-slate-400 max-w-xl">Thinking out loud about building companies, leading teams, and solving problems in the real world.</p>
                     </div>
-                   
+
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8">
@@ -40,9 +40,7 @@ const Insights = ({ posts }: InsightsProps) => {
                 </div>
 
                 <div className="mt-12 flex justify-center md:hidden">
-                    <Link href="#" className="text-blue-500 font-bold flex items-center gap-2">
-                        View all articles <ArrowRight size={16} />
-                    </Link>
+
                 </div>
             </div>
         </section>

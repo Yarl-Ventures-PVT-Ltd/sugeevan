@@ -25,6 +25,7 @@ export interface Service {
 export interface Milestone {
   text: string;
   year?: string;
+  icon?: any;
 }
 
 export interface Article {

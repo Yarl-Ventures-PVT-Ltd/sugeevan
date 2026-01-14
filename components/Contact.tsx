@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, MapPin, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram, Twitter } from 'lucide-react';
 
 const Contact = () => (
     <section id="contact" className="py-24 bg-slate-900/50">
@@ -21,17 +21,29 @@ const Contact = () => (
                     </div>
                     <div className="flex flex-col items-center gap-4">
                         <div className="w-12 h-12 bg-amber-500/10 rounded-full flex items-center justify-center text-amber-500"><MapPin /></div>
-                        <p className="font-medium text-slate-300">95, KKS Road, Jaffna</p>
+                        <p className="font-medium text-slate-300">95, KKS Road, Jaffna, Sri Lanka</p>
                     </div>
                 </div>
 
-                <div className="flex flex-wrap justify-center gap-4">
-                    <a href="mailto:hello@sugeevan.com" className="px-10 py-5 bg-white text-slate-950 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl">
+                <div className="flex flex-col items-center gap-6">
+                    <a href="mailto:hello@sugeevan.com" className="w-full md:w-auto px-6 py-4 bg-white text-slate-950 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl whitespace-nowrap flex justify-center">
                         Book an Appointment
                     </a>
-                    <a href="https://www.linkedin.com/in/sugeevanv" target="_blank" rel="noopener noreferrer" className="px-10 py-5 glass rounded-2xl font-bold text-lg flex items-center gap-2 hover:bg-white/10 transition-all">
-                        LinkedIn <Linkedin size={20} />
-                    </a>
+
+                    <div className="flex flex-wrap justify-center gap-3 md:gap-4 w-full">
+                        <a href="https://www.linkedin.com/in/sugeevanv/?originalSubdomain=lk" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-[#0077b5]/20 hover:text-[#0077b5] transition-all flex-1 md:flex-none">
+                            <Linkedin size={24} /> <span className="hidden md:inline">LinkedIn</span>
+                        </a>
+                        <a href="https://www.facebook.com/sugeevan.vettivelautham/" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-[#1877F2]/20 hover:text-[#1877F2] transition-all flex-1 md:flex-none">
+                            <Facebook size={24} /> <span className="hidden md:inline">Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/sujeevan_vsg/" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-[#E4405F]/20 hover:text-[#E4405F] transition-all flex-1 md:flex-none">
+                            <Instagram size={24} /> <span className="hidden md:inline">Instagram</span>
+                        </a>
+                        <a href="https://x.com/SugeevanVSG" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-white/20 transition-all flex-1 md:flex-none">
+                            <Twitter size={24} /> <span className="hidden md:inline">X</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>

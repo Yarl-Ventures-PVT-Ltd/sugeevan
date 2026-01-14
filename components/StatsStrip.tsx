@@ -2,9 +2,9 @@ import React from 'react';
 
 const StatsStrip = () => {
     const stats = [
-        { label: 'EDUS', val: '1,000+', desc: 'Active Learners' },
-        { label: 'MediMan', val: '800+', desc: 'Users in 15 days' },
-        { label: 'MediMan', val: '50+', desc: 'Verified Doctors' },
+        { label: 'EDUS', val: '7,000+', desc: 'Active Students' },
+        { label: 'MediMan', val: '2,000+', desc: 'Users in 15 days' },
+        { label: 'MediMan', val: '100+', desc: 'Verified Doctors' },
         { label: 'Partners', val: 'Global', desc: 'Execution Standards' },
     ];
 

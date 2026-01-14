@@ -41,19 +41,19 @@ const Hero = () => {
 
             <div className="relative z-10 max-w-7xl mx-auto px-6 h-full flex flex-col justify-center pt-20 md:pt-0">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
-                    <div className="max-w-4xl order-2 lg:order-1">
-                        <span className="inline-block px-4 py-1.5 rounded-full glass text-blue-400 text-sm font-semibold mb-6 animate-reveal">
+                    <div className="max-w-4xl order-2 lg:order-1 text-center lg:text-left">
+                        <span className="inline-block px-4 py-1.5 rounded-full glass text-blue-400 text-sm font-semibold mb-6 animate-reveal mx-auto lg:mx-0">
                             Hi, I'm
                         </span>
                         <h1 className="text-4xl lg:text-7xl font-bold leading-[1.1] mb-6 animate-reveal delay-100">
                             Sugeevan Vettivelautham <br />
                             <span className="text-gradient">(Sugeevan VSG)</span>
                         </h1>
-                        <p className="text-xl text-slate-400 mb-8 max-w-2xl leading-relaxed animate-reveal delay-200">
+                        <p className="text-xl text-slate-400 mb-8 max-w-2xl leading-relaxed animate-reveal delay-200 mx-auto lg:mx-0">
                             Founder. Operator. Building <span className="text-slate-200 font-semibold">EDUS</span> | <span className="text-slate-200 font-semibold">Yarl Ventures</span> | <span className="text-slate-200 font-semibold">MediMan</span>.
                         </p>
 
-                        <div className="flex flex-wrap gap-4 animate-reveal delay-500">
+                        <div className="flex flex-wrap gap-4 animate-reveal delay-500 justify-center lg:justify-start">
                             <a href="mailto:hello@sugeevan.com" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 hover:scale-105 active:scale-95">
                                 Book an Appointment
                             </a>

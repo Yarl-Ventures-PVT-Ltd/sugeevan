@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-    metadataBase: new URL('https://sugeevan.com'),
+    metadataBase: new URL('https://www.sugeevan.com'),
     title: {
         default: 'Sugeevan VSG | Founder of EDUS, Yarl Ventures & MediMan',
         template: '%s | Sugeevan VSG'
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: 'website',
         locale: 'en_US',
-        url: 'https://sugeevan.com',
+        url: 'https://www.sugeevan.com',
         title: 'Sugeevan VSG | Founder of EDUS, Yarl Ventures & MediMan',
         description: 'Founder and operator building technology ventures in education and healthcare.',
         siteName: 'Sugeevan VSG',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
         apple: '/favicon.png',
     },
     alternates: {
-        canonical: 'https://sugeevan.com',
+        canonical: 'https://www.sugeevan.com',
     },
 };
 

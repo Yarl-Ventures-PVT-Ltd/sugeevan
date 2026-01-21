@@ -38,7 +38,7 @@ const Navbar = () => {
                             {item.label}
                         </a>
                     ))}
-                    <a href="mailto:hello@sugeevan.com" className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-lg shadow-blue-500/20">
+                    <a href="https://cal.com/sugeevan-vsg/30min" target="_blank" rel="noopener noreferrer" className="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-sm font-semibold transition-all shadow-lg shadow-blue-500/20">
                         Book Appointment
                     </a>
                 </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
                             {item.label}
                         </a>
                     ))}
-                    <a href="mailto:hello@sugeevan.com" className="bg-blue-600 text-white px-6 py-3 rounded-xl text-center font-bold">
+                    <a href="https://cal.com/sugeevan-vsg/30min" target="_blank" rel="noopener noreferrer" className="bg-blue-600 text-white px-6 py-3 rounded-xl text-center font-bold">
                         Book Appointment
                     </a>
                 </div>

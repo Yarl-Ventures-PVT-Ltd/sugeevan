@@ -11,6 +11,38 @@ export async function generateStaticParams() {
     }));
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const post = await getArticle(slug);
+
+    if (!post) {
+        return {
+            title: 'Article Not Found',
+        };
+    }
+
+    return {
+        title: post.title,
+        description: post.summary,
+        alternates: {
+            canonical: `https://www.sugeevan.com/insights/${post.slug}`,
+        },
+        openGraph: {
+            title: post.title,
+            description: post.summary,
+            url: `https://www.sugeevan.com/insights/${post.slug}`,
+            type: 'article',
+            publishedTime: post.date,
+            authors: ['Sugeevan Vettivelautham'],
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: post.title,
+            description: post.summary,
+        },
+    };
+}
+
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     const post = await getArticle(slug);

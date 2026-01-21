@@ -6,7 +6,7 @@ const Contact = () => (
         <div className="max-w-7xl mx-auto px-6">
             <div className="glass p-12 lg:p-20 rounded-[3rem] text-center max-w-5xl mx-auto">
                 <h2 className="text-4xl lg:text-6xl font-bold mb-8">Let’s connect when it <br /> makes sense.</h2>
-                <p className="text-slate-400 text-xl mb-12 max-w-2xl mx-auto">
+                <p className="text-slate-400 text-xl mb-12 max-w-2xl mx-auto text-center">
                     If you’re exploring a partnership, a delivery team, or a strategic conversation around education and healthcare platforms, let's talk. I value clarity.
                 </p>
 
@@ -26,7 +26,7 @@ const Contact = () => (
                 </div>
 
                 <div className="flex flex-col items-center gap-6">
-                    <a href="mailto:hello@sugeevan.com" className="w-full md:w-auto px-6 py-4 bg-white text-slate-950 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl whitespace-nowrap flex justify-center">
+                    <a href="https://cal.com/sugeevan-vsg/30min" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto px-6 py-4 bg-white text-slate-950 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl whitespace-nowrap flex justify-center">
                         Book an Appointment
                     </a>
 

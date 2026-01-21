@@ -54,7 +54,7 @@ const Hero = () => {
                         </p>
 
                         <div className="flex flex-wrap gap-4 animate-reveal delay-500 justify-center lg:justify-start">
-                            <a href="mailto:hello@sugeevan.com" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 hover:scale-105 active:scale-95">
+                            <a href="https://cal.com/sugeevan-vsg/30min" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 hover:scale-105 active:scale-95">
                                 Book an Appointment
                             </a>
                             <button className="px-8 py-4 glass hover:bg-white/10 text-white rounded-xl font-bold transition-all hover:scale-105 active:scale-95">

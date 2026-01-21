@@ -14,6 +14,7 @@ import Vision from '../components/Vision';
 import Ventures from '../components/Ventures';
 import Milestones from '../components/Milestones';
 import Contact from '../components/Contact';
+import BookingCTA from '../components/BookingCTA';
 
 export default async function Home() {
     const allArticles = await getArticles();
@@ -28,6 +29,7 @@ export default async function Home() {
             <About />
             <Vision />
             <Ventures />
+            <BookingCTA />
             <WorkDelivery />
             <Milestones />
             <Insights posts={recentPosts} />

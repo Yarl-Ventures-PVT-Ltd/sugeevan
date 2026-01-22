@@ -26,9 +26,7 @@ const Contact = () => (
                 </div>
 
                 <div className="flex flex-col items-center gap-6">
-                    <a href="https://cal.com/sugeevan-vsg/30min" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto px-6 py-4 bg-white text-slate-950 rounded-2xl font-bold text-lg hover:scale-105 transition-transform shadow-2xl whitespace-nowrap flex justify-center">
-                        Book an Appointment
-                    </a>
+
 
                     <div className="flex flex-wrap justify-center gap-3 md:gap-4 w-full">
                         <a href="https://www.linkedin.com/in/sugeevanv/?originalSubdomain=lk" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-[#0077b5]/20 hover:text-[#0077b5] transition-all flex-1 md:flex-none">

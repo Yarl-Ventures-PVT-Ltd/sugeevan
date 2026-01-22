@@ -53,9 +53,6 @@ const BookingCTA = () => {
                         <div className="mt-12 space-y-2">
                             <h4 className="text-2xl font-bold text-white">Sugeevan Vettivelautham</h4>
                             <p className="text-slate-400 font-medium">Founder & CEO</p>
-                            <a href="mailto:hello@sugeevan.com" className="text-blue-400 hover:text-blue-300 transition-colors text-sm">
-                                hello@sugeevan.com
-                            </a>
                         </div>
                     </div>
                 </div>

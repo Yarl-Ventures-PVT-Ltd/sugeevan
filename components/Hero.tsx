@@ -50,16 +50,13 @@ const Hero = () => {
                             <span className="text-gradient">(Sugeevan VSG)</span>
                         </h1>
                         <p className="text-xl text-slate-400 mb-8 max-w-2xl leading-relaxed animate-reveal delay-200 mx-auto lg:mx-0">
-                            Founder. Operator. Building <span className="text-slate-200 font-semibold">EDUS</span> | <span className="text-slate-200 font-semibold">Yarl Ventures</span> | <span className="text-slate-200 font-semibold">MediMan</span>.
+                            Founder & CEO - Building <span className="text-slate-200 font-semibold">EDUS</span> | <span className="text-slate-200 font-semibold">Yarl Ventures</span> | <span className="text-slate-200 font-semibold">MediMan</span>.
                         </p>
 
                         <div className="flex flex-wrap gap-4 animate-reveal delay-500 justify-center lg:justify-start">
                             <a href="https://cal.com/sugeevan-vsg/30min" target="_blank" rel="noopener noreferrer" className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-all shadow-xl shadow-blue-500/20 hover:scale-105 active:scale-95">
                                 Book an Appointment
                             </a>
-                            <button className="px-8 py-4 glass hover:bg-white/10 text-white rounded-xl font-bold transition-all hover:scale-105 active:scale-95">
-                                Request a Profile Deck
-                            </button>
                         </div>
                     </div>
 

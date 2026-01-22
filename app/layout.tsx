@@ -51,9 +51,9 @@ export const metadata: Metadata = {
         },
     },
     icons: {
-        icon: '/favicon.png',
-        shortcut: '/favicon.png',
-        apple: '/favicon.png',
+        icon: '/s.png',
+        shortcut: '/s.png',
+        apple: '/s.png',
     },
     alternates: {
         canonical: 'https://www.sugeevan.com',

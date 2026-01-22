@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { NavItem } from '../types';
 
@@ -27,7 +28,14 @@ const Navbar = () => {
         <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'glass py-4 shadow-xl' : 'bg-transparent py-6'}`}>
             <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
                 <a href="/#home" className="text-xl font-bold tracking-tighter flex items-center gap-2">
-                    <span className="bg-blue-600 w-8 h-8 rounded-lg flex items-center justify-center text-white text-sm">S</span>
+                    <div className="relative w-8 h-8 rounded-lg overflow-hidden">
+                        <Image
+                            src="/s.png"
+                            alt="Logo"
+                            fill
+                            className="object-cover"
+                        />
+                    </div>
                     SUGEEVAN VSG
                 </a>
 

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
 
@@ -68,6 +69,11 @@ export default function RootLayout({
         <html lang="en" className={`${inter.variable} ${playfair.variable} scroll-smooth`} suppressHydrationWarning>
             <body className="bg-slate-950 text-slate-200 antialiased selection:bg-blue-500/30 selection:text-blue-200" suppressHydrationWarning>
                 {children}
+                <Script
+                    src="https://analytics.ahrefs.com/analytics.js"
+                    data-key="qsDA/SHsKewEzB++ygTRPg"
+                    strategy="afterInteractive"
+                />
             </body>
         </html>
     );

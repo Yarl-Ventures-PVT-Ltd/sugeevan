@@ -13,7 +13,7 @@ const Footer = () => (
                 </div>
             </div>
             <div className="mt-8 text-center text-xs text-slate-700">
-                Designed for investors, clients, and future-makers. Jaffna to the world.
+                Designed & Developed by <a href="https://yarlventures.com/" target="_blank" rel="noopener noreferrer" className="hover:text-slate-500 transition-colors">Yarl Ventures</a> from Jaffna, Sri Lanka.
             </div>
         </div>
     </footer>

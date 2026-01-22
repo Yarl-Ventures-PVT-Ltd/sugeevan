@@ -47,9 +47,9 @@ const Hero = () => {
                         </span>
                         <h1 className="text-4xl lg:text-7xl font-bold leading-[1.1] mb-6 animate-reveal delay-100">
                             Sugeevan Vettivelautham <br />
-                            <span className="text-gradient">(Sugeevan VSG)</span>
+                            <span className="text-gradient block mt-2 lg:mt-4">(Sugeevan VSG)</span>
                         </h1>
-                        <p className="text-xl text-slate-400 mb-8 max-w-2xl leading-relaxed animate-reveal delay-200 mx-auto lg:mx-0">
+                        <p className="text-xl text-slate-400 mb-12 max-w-2xl leading-relaxed animate-reveal delay-200 mx-auto lg:mx-0">
                             Founder & CEO - Building <span className="text-slate-200 font-semibold">EDUS</span> | <span className="text-slate-200 font-semibold">Yarl Ventures</span> | <span className="text-slate-200 font-semibold">MediMan</span>.
                         </p>
 

@@ -64,28 +64,12 @@ const Hero = () => {
                         <div className="relative w-64 h-64 md:w-96 md:h-96 lg:w-[32rem] lg:h-[32rem]">
                             <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-[40px] animate-pulse"></div>
                             <Image
-                                src="/sugeevan.png"
+                                src="/hSI_1.webp"
                                 alt="Sugeevan Vettivelautham"
                                 fill
                                 className="object-cover rounded-3xl shadow-2xl border border-white/10 relative z-10"
                                 priority
                             />
-
-                            {/* Restored Recognition Badge */}
-                            <div
-                                className="absolute -bottom-6 -left-6 md:-bottom-8 md:-left-8 glass p-4 md:p-6 rounded-2xl shadow-2xl float-element z-20 border-blue-500/30 w-max"
-                                style={{ transform: `translate(${mousePos.x * 0.4}px, ${mousePos.y * 0.4}px)` }}
-                            >
-                                <div className="flex items-center gap-4">
-                                    <div className="w-10 h-10 md:w-12 md:h-12 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-500">
-                                        <Award size={24} />
-                                    </div>
-                                    <div>
-                                        <p className="text-[10px] md:text-xs text-slate-400 font-semibold uppercase tracking-wider">Recognition</p>
-                                        <p className="text-sm md:text-base font-bold">Winner YGC 2021</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

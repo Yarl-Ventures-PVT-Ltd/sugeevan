@@ -39,8 +39,10 @@ const Insights = ({ posts }: InsightsProps) => {
                     ))}
                 </div>
 
-                <div className="mt-12 flex justify-center md:hidden">
-
+                <div className="mt-12 flex justify-center">
+                    <Link href="/insights" className="px-8 py-3 rounded-full border border-slate-700 hover:border-blue-500 hover:bg-blue-500/10 text-white transition-all flex items-center gap-2 group">
+                        View all Articles <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                    </Link>
                 </div>
             </div>
         </section>

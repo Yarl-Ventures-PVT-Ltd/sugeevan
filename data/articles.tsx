@@ -3,6 +3,290 @@ import { Article } from '../types';
 
 export const articles: Article[] = [
     {
+        slug: 'national-innovation-report-2024-edus-landmark',
+        title: 'A Landmark Achievement: EDUS Tutor Pivots National Innovation',
+        summary: "EDUS Tutor recognized as the first invention in the National Innovation Report 2024, highlighting our role in transforming online education in Sri Lanka.",
+        date: 'Feb 07, 2026',
+        tag: 'Achievement',
+        image: '/national-innovation-report-2024.webp',
+        content: (
+            <>
+                <p className="lead">
+                    In the heart of Colombo, at the prestigious Jasmine Hall, BMICH, EDUS Tutor etched its name into the annals of innovation history.
+                    The occasion? The grand launch of the <strong>National Innovation Report 2024</strong>.
+                </p>
+                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/national-innovation-report-2024.webp"
+                        alt="Sugeevan Receiving National Innovation Report"
+                        className="object-cover w-full h-full"
+                    />
+                </div>
+                <p>
+                    This landmark event, held on January 29, 2025, celebrated national ingenuity and placed EDUS Tutor at the forefront of transformative education technology.
+                    The report encapsulates years of groundbreaking advancements by Sri Lankan startups, highlighting 106 transformative innovations from 2018 to 2023.
+                </p>
+                <br />
+
+                <h2>A Visionary Milestone: Receiving the Inaugural Copy</h2>
+
+                <p>
+                    As the CEO, I had the distinct honor of receiving the first-ever copy of this prestigious report.
+                    Compiled under the leadership of Prof. Ajith de Alwis and the <strong>National Innovation Agency (NIA)</strong>,
+                    the report showcases innovations with a profound impact on Sri Lanka’s economy.
+                </p>
+                <br />
+                <p>
+                    Among these trailblazing achievements, <strong>EDUS Tutor stands out as the very first invention featured</strong>,
+                    distinguishing us as the sole promising startup hailing from Northern Sri Lanka. This recognition is more than just an accolade;
+                    it’s a testament to our relentless pursuit of excellence and our commitment to redefining online learning.
+                </p>
+                <br />
+
+                <h3>Celebrating National Ingenuity</h3>
+
+                <p>
+                    The event was graced by eminent dignitaries, including the Secretary to the President, the Minister of Science & Technology,
+                    and esteemed leaders from prominent science institutions. Their presence underscored the government’s unwavering support for
+                    fostering innovation and celebrating achievements that propel Sri Lanka onto the global stage.
+                </p>
+                <br />
+
+                <h3>Building on Success</h3>
+
+                <p>
+                    This milestone builds upon our recent triumph at the <strong>National ICT Awards under EdTech</strong>, received in October 2024.
+                    Each recognition fuels our passion for pushing boundaries and overcoming challenges in education.
+                </p>
+                <br />
+                <p>
+                    We extend our heartfelt gratitude to the Government of Sri Lanka and the National Innovation Agency (NIA) for this esteemed acknowledgment.
+                    Your trust motivates us to continue innovating and scaling new heights.
+                </p>
+                <br />
+
+                <h3>Driving Meaningful Change Together</h3>
+
+                <p>
+                    At EDUS Tutor, we believe that innovation thrives through collaboration. Our journey would not have been possible without the
+                    unwavering support of our team, partners, educators, students, and stakeholders who share our vision.
+                </p>
+                <br />
+                <p>
+                    As we celebrate this monumental achievement, we remain steadfast in our mission to empower learners worldwide.
+                    Every challenge overcome, every milestone achieved, brings us closer to realizing our dream of making quality education accessible to all.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'national-ict-awards-2024-edus-win',
+        title: 'Celebrating Excellence: EDUS Wins the National ICT Award in Education',
+        summary: "EDUS Online Institute wins the National ICT Awards – NBQSA (2024) in the Education Category, a testament to our commitment to excellence in online education.",
+        date: 'Oct 28, 2024',
+        tag: 'Award',
+        image: '/national-ict-award-2024.webp',
+        content: (
+            <>
+                <p className="lead">
+                    We are thrilled to share a monumental achievement from EDUS Online Institute! Under the visionary leadership of our CEO, Sugeevan Vsg,
+                    we have proudly won the <strong>National ICT Awards – NBQSA (2024) in the Education Category! 🏆🎓</strong>
+                </p>
+
+                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/national-ict-award-2024.webp"
+                        alt="EDUS Team Winning National ICT Award"
+                        className="object-cover w-full h-full"
+                    />
+                </div>
+
+                <p>
+                    This prestigious accolade is a significant milestone in Sri Lanka’s ICT sector, highlighting our commitment to excellence in online education.
+                </p>
+                <br />
+
+                <h2>A Testament to Dedication and Innovation</h2>
+                <p>
+                    This remarkable award reflects the hard work, dedication, and innovative spirit of our incredible team at EDUS.
+                    We are driven by a singular mission: to revolutionize education and empower our students with cutting-edge IT infrastructure and high-quality learning experiences.
+                </p>
+                <br />
+                <p>
+                    Winning the NBQSA award validates our commitment to providing the best online learning experience in Sri Lanka,
+                    ensuring our students have the tools they need to thrive in an ever-evolving digital landscape. 🇱🇰
+                </p>
+                <br />
+
+                <h3>Gratitude for Our Supporters</h3>
+                <p>
+                    This achievement would not have been possible without the unwavering support of our amazing students, their parents, and our dedicated team.
+                    Together, we are paving the way for a future where education meets technology, preparing our learners for success in today’s fast-paced world.
+                </p>
+                <br />
+                <p>
+                    We believe that by harnessing the power of technology, we can create engaging and effective learning environments that inspire and motivate.
+                </p>
+                <br />
+
+                <h3>Join Us in Building a Brighter Future!</h3>
+                <p>
+                    At EDUS, we are more than just an online institute; we are a community committed to excellence in education.
+                    We invite you to join us on this exciting journey as we continue to innovate and inspire.
+                    Together, let’s build a brighter future for our students and empower them to reach their fullest potential.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'slingshot-accelerator-demo-day-2023-edus-shines',
+        title: 'EDUS.lk Shines at Hemas and Hatch’s Slingshot Accelerator Demo Day',
+        summary: "EDUS.lk recognized as one of the standout participants in the Hemas and Hatch Slingshot Accelerator Program, showcasing significant strides in scaling operations.",
+        date: 'Dec 15, 2023',
+        tag: 'Achievement',
+        image: '/slingshot-accelerator-demo-day-2023.webp',
+        content: (
+            <>
+                <p className="lead">
+                    In an impactful collaboration aimed at bolstering Sri Lankan entrepreneurship, Hemas, in partnership with Hatch, recently launched the
+                    <strong> Slingshot Accelerator</strong>, a startup incubator and seed accelerator program. This initiative is designed to propel local startups
+                    into the next phases of growth and innovation.
+                </p>
+
+                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/slingshot-accelerator-demo-day-2023.webp"
+                        alt="Sugeevan at Slingshot Accelerator Demo Day"
+                        className="object-cover w-full h-full"
+                    />
+                </div>
+
+                <h2>A Standout Participant</h2>
+                <p>
+                    Among the standout participants was <strong>EDUS.lk</strong>, one of the eight exceptional startups selected to advance in the Accelerator Program.
+                    At the recent demo day, Sugeevan V.S.G, the driving force behind EDUS.lk, showcased the significant strides their company has made under the program.
+                </p>
+                <br />
+                <p>
+                    “The Slingshot Accelerator has been a transformative experience for us, providing the tools and insights needed to scale our operations
+                    and enhance our service offerings,” Sugeevan remarked during his presentation.
+                </p>
+                <br />
+
+                <h3>Fostering Innovation and Growth</h3>
+                <p>
+                    The demo day event was not just a display of entrepreneurial prowess but also a testament to the thriving ecosystem that Hemas and Hatch
+                    are cultivating through the Slingshot Accelerator. By providing startups like EDUS.lk with critical resources, mentorship, and exposure,
+                    they are setting a robust foundation for innovation and economic growth in Sri Lanka.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'edus-beacon-of-innovation-xcellerate-2023',
+        title: 'EDUS Online Institute: A Beacon of Innovation at the Xcellerate Program 2023',
+        summary: "EDUS Online Institute selected as a top startup for SLASSCOM's prestigious Xcellerate Program 2023, maximizing our potential in Sri Lanka's tech scene.",
+        date: 'May 15, 2023',
+        tag: 'Achievement',
+        image: '/slasscom-xcellerate-2023.webp',
+        content: (
+            <>
+                <p className="lead">
+                    In a remarkable showcase of innovation and potential, <strong>EDUS Online Institute</strong> stood out as one of the top startups selected for the prestigious
+                    <strong> Xcellerate Program by <a href="https://slasscom.lk/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">SLASSCOM</a></strong> (Sri Lanka Association for Software and Services Companies) in 2023.
+                </p>
+                <p>
+                    This honor places EDUS at the forefront of Sri Lanka’s rapidly evolving tech scene, alongside delegates from some of the most esteemed organizations in the industry.
+                </p>
+
+                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/slasscom-xcellerate-2023.webp"
+                        alt="EDUS at SLASSCOM Xcellerate Program 2023"
+                        className="object-cover w-full h-full"
+                    />
+                </div>
+
+                <h2>A Testament to Excellence</h2>
+                <p>
+                    The Xcellerate Program, renowned for its rigorous selection process, identifies and nurtures startups that exhibit exceptional promise and innovative capabilities.
+                    Being chosen as one of the finest in this competitive arena is a testament to EDUS Online Institute’s commitment to excellence and its potential to shape the future of education technology.
+                </p>
+                <br />
+
+                <h3>A Whirlwind of Inspiration</h3>
+                <p>
+                    The event itself was a whirlwind of inspiration and opportunity, providing a platform for networking, mentorship, and game-changing insights.
+                    Startups and industry leaders came together in a dynamic exchange of ideas, pushing the boundaries of what’s possible in the tech ecosystem.
+                </p>
+                <br />
+                <p>
+                    For EDUS, participation in such a prestigious event not only highlights its significant achievements but also opens doors to invaluable partnerships and growth opportunities.
+                    Throughout the day, the air buzzed with conversations about future trends, strategies for success, and stories of entrepreneurial journeys.
+                </p>
+                <br />
+
+                <h3>Shaping the Future of Ed-Tech</h3>
+                <p>
+                    For EDUS Online Institute, this recognition is not just an accolade but a stepping stone to further innovation and success.
+                    With the spotlight now on them, they are poised to continue their journey with even greater determination and to keep pushing the limits of what they can achieve in the ed-tech space.
+                </p>
+                <br />
+                <p>
+                    As we look to the future, it is clear that EDUS Online Institute is not just participating in the evolution of educational technology; they are actively shaping it.
+                    Their presence at the Xcellerate Program 2023 serves as a clear indicator of their role as a leader in innovation and their potential to influence positive change on a global scale.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'edus-finalist-spiralation-2022',
+        title: 'EDUS Celebrates Finalist Spot at Spiralation 2022: A Leap Towards Greater Success',
+        summary: "EDUS Online Institute proudly announces its recognition as a finalist at Spiralation 2022, marking a significant milestone in our growth and innovation.",
+        date: 'Feb 16, 2023',
+        tag: 'Achievement',
+        image: '/spiralation-2022-finalist.webp',
+        content: (
+            <>
+                <p className="lead">
+                    <strong>EDUS Online Institute</strong> proudly announces its recognition as one of the finalists at <strong>Spiralation 2022</strong>,
+                    a significant milestone that underscores the startup’s trajectory towards greater success and innovation in the educational sector.
+                </p>
+                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/spiralation-2022-finalist.webp"
+                        alt="EDUS Team at Spiralation 2022"
+                        className="object-cover w-full h-full"
+                    />
+                </div>
+                <p>
+                    This accolade serves not only as a testament to EDUS’s commitment to excellence but also highlights the crucial support received from the Spiralation team and the broader entrepreneurial community.
+                </p>
+                <br />
+
+                <h2>A Pivotal Step in Growth</h2>
+                <p>
+                    Reflecting on this achievement, the founders of EDUS extend their heartfelt gratitude towards everyone who has supported their journey.
+                    “Being part of Spiralation 2022 has been a pivotal step in our growth. The insights, mentorship, and networking opportunities provided through this program have been invaluable in propelling us to new heights,” they shared.
+                </p>
+                <br />
+
+                <h3>Community and Support</h3>
+                <p>
+                    The support from the Spiralation team goes beyond professional boundaries, fostering a sense of community and belonging among the startups.
+                    “More than professionals, you have become a significant part of our EDUS family. Your unwavering support and belief in our mission have been instrumental in our achievements,” the founders added, expressing deep appreciation for the team’s efforts.
+                </p>
+                <br />
+
+                <h3>Future Endeavors</h3>
+                <p>
+                    As EDUS continues to evolve and reach new milestones, the spirit of teamwork and collaboration remains central to its success story.
+                    This recognition at Spiralation 2022 not only celebrates past achievements but also sets the stage for future endeavors, ensuring that EDUS remains at the forefront of educational innovation.
+                </p>
+            </>
+        )
+    },
+    {
         slug: 'building-businesses-that-run-without-you',
         title: 'Building Businesses That Run Without You',
         summary: "Systems are the difference between owning a business and owning a job. Here’s how to start removing yourself from the day-to-day.",
@@ -235,7 +519,7 @@ export const articles: Article[] = [
                 <p>
                     We design overlapping hours with US and EU clients, keep meetings tightly structured,
                     and use asynchronous updates so nobody waits all day for answers.
-                </p>    
+                </p>
                 <br />
                 <h3>The Result</h3>
                 <p>
@@ -281,7 +565,7 @@ export const articles: Article[] = [
                 </p>
                 <br />
                 <h3>MediMan’s Solution: Smart Triage and Transparent Status</h3>
-                <br />  
+                <br />
                 <p>
                     We tackled this by providing real-time updates, clear expectations, and simple language.
                     Good digital healthcare UX reduces uncertainty at every step.
@@ -302,7 +586,7 @@ export const articles: Article[] = [
                     directly to pharmacies and digital health records that travel with the patient, not the
                     hospital filing cabinet.
                 </p>
-                <br />                      
+                <br />
                 <p>Patients can:</p>
                 <br />
                 <ul>
@@ -312,7 +596,7 @@ export const articles: Article[] = [
                 </ul>
                 <br />
                 <h3>Designing Digital Healthcare Around Patient Needs</h3>
-                    <br />
+                <br />
                 <p>When you design for patients first, features look different:</p>
                 <br />
                 <ul>

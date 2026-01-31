@@ -34,5 +34,6 @@ export interface Article {
   summary: string;
   date: string;
   tag: string;
+  image?: string;
   content: React.ReactNode;
 }

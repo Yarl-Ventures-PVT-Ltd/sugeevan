@@ -18,7 +18,7 @@ import BookingCTA from '../components/BookingCTA';
 
 export default async function Home() {
     const allArticles = await getArticles();
-    const recentPosts = allArticles.slice(0, 3);
+    const recentPosts = allArticles.slice(0, 6);
 
     return (
         <div className="relative">

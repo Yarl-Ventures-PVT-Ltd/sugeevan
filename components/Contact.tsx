@@ -41,6 +41,9 @@ const Contact = () => (
                         <a href="https://x.com/SugeevanVSG" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-white/20 transition-all flex-1 md:flex-none">
                             <Twitter size={24} /> <span className="hidden md:inline">X</span>
                         </a>
+                        <a href="https://www.f6s.com/member/sugeevan-vsg?follow=1" target="_blank" rel="noopener noreferrer" title="Follow Sugeevan VSG on F6S" className="p-3 md:px-6 md:py-4 glass rounded-2xl flex items-center justify-center hover:bg-white/20 transition-all flex-1 md:flex-none">
+                            <img src="https://www.f6s.com/images/f6s-follow-primary.png" width={78} height={22} alt="Follow Sugeevan VSG on F6S" style={{ width: '78px', height: '22px', padding: '0px', margin: '0px' }} />
+                        </a>
                     </div>
                 </div>
             </div>

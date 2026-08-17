@@ -3,6 +3,306 @@ import { Article } from '../types';
 
 export const articles: Article[] = [
     {
+        slug: 'ncit-chairman-appointment-2026',
+        title: 'Sugeevan Vsg Appointed as Chairman of the Northern Chamber of Information Technology (NCIT)',
+        summary: "Discover Sugeevan Vsg's strategic vision for Sri Lanka's Northern IT ecosystem following his appointment as NCIT Chairman for the 2026–2027 term.",
+        date: 'Aug 17, 2026',
+        tag: 'Leadership',
+        image: '/01/763486919_1359084036348164_4616417023929447552_n.jpg',
+        content: (
+            <>
+                <p className="lead">
+                    Stepping into a new realm of responsibility and leadership, I am deeply honored to announce my appointment as the Chairman of the <strong>Northern Chamber of Information Technology (NCIT)</strong> for the 2026–2027 term. This marks a pivotal moment not just for my professional journey, but for the rapidly evolving digital landscape of Sri Lanka.
+                </p>
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/01/763486919_1359084036348164_4616417023929447552_n.jpg"
+                        alt="Sugeevan Vsg appointed as Chairman of the Northern Chamber of Information Technology (NCIT)"
+                        className="w-full h-auto"
+                    />
+                </div>
+                <h2>Charting a Strategic Vision for Sri Lanka's Northern Tech Ecosystem</h2>
+                <p>
+                    I extend my deepest gratitude to the NCIT and the broader Information Technology community across Sri Lanka for their unwavering trust. Assuming this leadership role transcends personal achievement—it is a steadfast commitment to accelerating the digital transformation and software engineering potential of the Northern Province.
+                </p>
+                <br />
+                <p>
+                    Our region is an untapped reservoir of tech talent, home to innovative software startups and driven entrepreneurs. The potential to establish the North as a central hub for technological advancement and IT exports is immense. During my tenure, our strategic focus will center on driving digital inclusion, nurturing local tech entrepreneurship, and bridging the critical gap between regional software engineering talent and global tech market opportunities.
+                </p>
+                <br />
+                <h3>Core IT Development Goals for 2026-2027</h3>
+                <ul>
+                    <li><strong>Accelerating Local Tech Startups:</strong> Implementing robust business mentorship programs, providing essential tech resources, and facilitating high-value networking opportunities for emerging digital businesses.</li>
+                    <li><strong>Industry & Academia Synergy:</strong> Forging stronger partnerships between regional universities and the IT sector to ensure our IT graduates are equipped with future-ready skills for modern tech roles.</li>
+                    <li><strong>Global Market Integration:</strong> Amplifying the visibility of indigenous Sri Lankan tech solutions on international IT platforms to boost software exports.</li>
+                </ul>
+                <br />
+                <p>
+                    I eagerly anticipate collaborating with global industry leaders, government technology bodies, and our vibrant local tech community. Together, we will architect a robust, resilient, and inclusive digital economy that positions Sri Lanka at the forefront of global technological innovation.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'mediman-slasscom-national-ingenuity-awards-2026',
+        title: 'MediMan Triumphs at SLASSCOM National Ingenuity Awards 2026',
+        summary: "MediMan's digital healthcare platform recognized as the Best Innovative Product at the prestigious SLASSCOM National Ingenuity Awards 2026.",
+        date: 'Aug 15, 2026',
+        tag: 'HealthTech',
+        image: '/02/726420571_122159024144669676_2161349249257506845_n.jpg',
+        content: (
+            <>
+                <p className="lead">
+                    A monumental achievement for our entire digital health team: <strong>MediMan</strong> has been officially recognized at the highly prestigious <strong>SLASSCOM National Ingenuity Awards 2026</strong>, securing the title of Best Innovative Product during our early pilot run.
+                </p>
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/02/726420571_122159024144669676_2161349249257506845_n.jpg"
+                        alt="MediMan wins Best Innovative Product at SLASSCOM National Ingenuity Awards 2026"
+                        className="w-full h-auto"
+                    />
+                </div>
+                <h2>From Conceptual Vision to Digital Healthcare Reality</h2>
+                <p>
+                    The inception of MediMan was driven by a clear, ambitious objective: to engineer a solution for real-world healthcare challenges leveraging robust, scalable digital technology. Our mission has always been to eliminate the friction patients encounter within traditional hospital systems and to equip medical professionals with seamless, intuitive digital health software tools.
+                </p>
+                <br />
+                <p>
+                    Receiving national recognition from SLASSCOM—the apex body representing the IT and BPM industry in Sri Lanka—serves as a profound validation of our strategic vision. It unequivocally demonstrates that our innovative approach to digital healthcare software is not merely necessary, but highly impactful for patients, clinics, and the broader healthcare ecosystem.
+                </p>
+                <br />
+                <h3>The Strategic Roadmap for MediMan HealthTech</h3>
+                <p>
+                    This accolade is a testament to the relentless dedication of every software engineer and team member who transformed MediMan from a concept into a tangible reality. As we transition beyond the pilot phase, our motivation to scale our cloud-based medical solutions is stronger than ever. We are actively integrating advanced digital features and expanding our reach to more healthcare providers and hospitals across the region. 
+                </p>
+                <br />
+                <p>
+                    We extend our deepest thanks to SLASSCOM for this remarkable honor, and to our early medical adopters who placed their trust in our HealthTech platform. The future of medical care is undeniably digital, and MediMan is proud to spearhead this healthcare innovation revolution in Sri Lanka.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'edus-bodhbridge-iit-madras-partnership',
+        title: 'EDUS Partners with BodhBridge to Offer IIT Madras Certified Tech Courses in Sri Lanka',
+        summary: "Explore how EDUS is revolutionizing Sri Lankan EdTech through a strategic partnership with BodhBridge to deliver IIT Madras certified online courses.",
+        date: 'Aug 10, 2026',
+        tag: 'EdTech',
+        image: '/04/662075063_1451770149978905_372152886097811997_n.jpg',
+        content: (
+            <>
+                <p className="lead">
+                    🌍 A transformative leap forward for EDUS in the EdTech sector. We are thrilled to announce a monumental milestone in our ongoing mission to democratize access to high-quality digital education.
+                </p>
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/04/662075063_1451770149978905_372152886097811997_n.jpg"
+                        alt="EDUS and BodhBridge partnership to offer IIT Madras certified IT courses in Sri Lanka"
+                        className="w-full h-auto"
+                    />
+                </div>
+                <h2>Bridging Sri Lanka to World-Class IT Education Standards</h2>
+                <p>
+                    EDUS has officially forged a strategic partnership with <strong>BodhBridge, Chennai, India</strong> to introduce highly sought-after <strong>IIT Madras certified tech courses</strong> to learners across Sri Lanka. This EdTech collaboration signifies a massive advancement in our commitment to providing unparalleled online educational resources and technical courses to our students.
+                </p>
+                <br />
+                <p>
+                    IIT Madras stands as a global beacon for academic rigor and technological software innovation. Through this online learning partnership, Sri Lankan students, IT professionals, and aspiring software developers gain direct access to specialized digital courses designed to elevate coding skills, enhance IT employability, and accelerate global career trajectories.
+                </p>
+                <br />
+                <h3>Empowering the Next Generation of Software Leaders</h3>
+                <ul>
+                    <li><strong>Global Educational Standards:</strong> Delivering world-class IT curriculum, practical skills, and rigorous coding bootcamps directly to local learners.</li>
+                    <li><strong>IT Career Advancement:</strong> Providing software and tech certifications that command respect from top-tier international tech companies.</li>
+                    <li><strong>Eliminating the Tech Education Gap:</strong> Dismantling geographical barriers to ensure seamless access to elite computer science education.</li>
+                </ul>
+                <br />
+                <p>
+                    This initiative is merely the beginning for our EdTech platform. We firmly believe that tech talent is universal, even if educational opportunities are not. By establishing robust international learning partnerships like our alliance with BodhBridge, EDUS continues to level the playing field, ensuring our local learners are fully equipped to excel in the competitive global IT sector.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'mediman-suwathuna-medical-tourism-partnership',
+        title: 'Revolutionizing Medical Tourism: MediMan Partners with Suwathuna Chennai',
+        summary: "MediMan pioneers seamless digital cross-border healthcare by partnering with Suwathuna, Asia’s first doctor-led super-specialty medical tourism network.",
+        date: 'Aug 05, 2026',
+        tag: 'HealthTech',
+        image: '/05/662740636_122153824568669676_3746326418846809151_n.jpg',
+        content: (
+            <>
+                <p className="lead">
+                    Breaking borders to ensure better healthcare access! Sri Lanka 🤝 India. As the digital healthcare landscape rapidly evolves, our HealthTech platform, MediMan, is leading the charge in cross-border digital transformation.
+                </p>
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/05/662740636_122153824568669676_3746326418846809151_n.jpg"
+                        alt="MediMan partnering with Suwathuna to revolutionize digital medical tourism between Sri Lanka and India"
+                        className="w-full h-auto"
+                    />
+                </div>
+                <h2>A Strategic Leap in Digital Medical Tourism</h2>
+                <p>
+                    We are immensely proud to announce that <strong>MediMan</strong> has officially partnered with <strong>@suwathuna (Chennai)</strong>, establishing itself as a pivotal digital health player within Asia’s first doctor-led super-specialty medical tourism network.
+                </p>
+                <br />
+                <p>
+                    This innovative HealthTech partnership is meticulously designed to seamlessly connect Sri Lankan patients with top-tier medical specialists and state-of-the-art hospital facilities in India. By integrating Suwathuna's expansive Indian medical network with MediMan's robust digital healthcare software platform, we are entirely streamlining the cross-border medical tourism process online.
+                </p>
+                <br />
+                <h3>Redefining the Patient Experience through Digital Integration</h3>
+                <p>
+                    Historically, navigating healthcare across borders has been daunting and fraught with administrative hurdles. Our software collaboration effectively eliminates these complexities by offering:
+                </p>
+                <ul>
+                    <li><strong>Direct Online Access to Medical Specialists:</strong> Facilitating seamless digital consultations and telemedicine with leading doctors in Chennai prior to any travel.</li>
+                    <li><strong>Transparent Medical Pathways:</strong> Providing clear, software-driven guidance on complex treatment plans, hospital costs, and medical logistics.</li>
+                    <li><strong>End-to-End Digital Support:</strong> Supplying a comprehensive digital health companion app that assists patients from initial diagnosis through to post-treatment care and remote monitoring.</li>
+                </ul>
+                <br />
+                <p>
+                    We are dedicated to building digital health bridges that place patient care at the forefront, ensuring that world-class medical treatment is always just a click away through the MediMan platform.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'mediman-deputy-minister-eranga-weeraratne',
+        title: 'Discussing the Future of HealthTech with the Deputy Minister of Digital Economy',
+        summary: "Strategic dialogue with Hon. Eranga Weeraratne on how MediMan is driving digital healthcare transformation in Sri Lanka's growing digital economy.",
+        date: 'Aug 01, 2026',
+        tag: 'HealthTech',
+        image: '/06/626411925_25073334045675342_7889349127893809238_n.jpg',
+        content: (
+            <>
+                <p className="lead">
+                    A significant digital milestone in our HealthTech journey. It was an absolute privilege to meet with the Deputy Minister of Digital Economy, <strong>Hon. Eranga Weeraratne</strong>, to discuss the promising future of digital HealthTech software in Sri Lanka.
+                </p>
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/06/626411925_25073334045675342_7889349127893809238_n.jpg"
+                        alt="Discussing HealthTech software strategy with Deputy Minister of Digital Economy Eranga Weeraratne"
+                        className="w-full h-auto"
+                    />
+                </div>
+                <h2>Driving Digital Transformation in Public Healthcare</h2>
+                <p>
+                    During our comprehensive policy dialogue, we showcased the advanced digital capabilities of <strong>MediMan</strong>—a homegrown HealthTech software solution originating from the Northern Province. We explored how modern digital healthcare platforms and cloud-based medical databases can drastically alleviate the administrative burdens currently weighing on our traditional hospital infrastructure, ultimately making medical services more accessible and efficient via online health solutions.
+                </p>
+                <br />
+                <p>
+                    The Deputy Minister’s progressive vision for Sri Lanka's digital software economy aligns seamlessly with our HealthTech objectives. His strong enthusiasm for supporting local tech startups, fostering software innovation, and integrating modern digital technology into public healthcare sectors serves as incredible encouragement for software developers and tech entrepreneurs across the island.
+                </p>
+                <br />
+                <h3>Fostering a Collaborative Tech Future</h3>
+                <p>
+                    Strategic IT conversations at this level underscore the vital importance of public-private technology partnerships. By aligning our software engineering capabilities with the government's ambitious digital economy initiatives, we can amplify our IT impact and genuinely modernize Sri Lanka's digital healthcare delivery system.
+                </p>
+                <br />
+                <p>
+                    We concluded the meeting deeply inspired and more determined than ever to continue pushing the boundaries of what local Sri Lankan software engineering and tech talent can achieve in the global digital health space.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'road-to-5-billion-it-workshop',
+        title: 'Strategizing the $5 Billion Digital Economy: Insights from the National IT Validation Workshop',
+        summary: "Key takeaways from the national dialogue aimed at accelerating Sri Lanka’s IT industry assessment and targeting $5 Billion in IT exports.",
+        date: 'Jul 25, 2026',
+        tag: 'Industry',
+        image: '/03/773379515_27143967241945335_7040738290507241924_n.jpg',
+        content: (
+            <>
+                <p className="lead">
+                    It was a distinct honor to be selected and invited as a tech founder to attend the <strong>“The Road to $5 Billion” Validation Workshop</strong>, a landmark event charting the course for the Sri Lankan IT sector's explosive growth.
+                </p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+                    <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="/03/773379515_27143967241945335_7040738290507241924_n.jpg" className="w-full h-auto" alt="The Road to $5 Billion IT Industry Validation Workshop - Event Presentation" />
+                    </div>
+                    <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="/03/773028913_27143968098611916_3566836995359980693_n.jpg" className="w-full h-auto" alt="Sugeevan participating in IT sector strategic discussions" />
+                    </div>
+                    <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="/03/774105669_27143967228612003_5520520570433238740_n.jpg" className="w-full h-auto" alt="Networking with key technology leaders in Sri Lanka" />
+                    </div>
+                    <div className="relative w-full rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="/03/773379516_27143967255278667_1938231037523620344_n.jpg" className="w-full h-auto" alt="Collaborative session on digital economy policies" />
+                    </div>
+                    <div className="relative w-full md:col-span-2 rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="/03/773643990_27143968035278589_6665349473725981716_n.jpg" className="w-full h-auto" alt="Group photo with Ministry of Digital Economy and GovTech Sri Lanka officials" />
+                    </div>
+                </div>
+
+                <h2>A Crucial National IT Industry Dialogue</h2>
+                <p>
+                    This strategic workshop represents a critical juncture for Sri Lanka’s software and technology sector. It serves as a foundational national dialogue focused on comprehensively shaping and assessing the IT industry's trajectory towards achieving an ambitious $5 Billion IT export revenue target by 2030. I was proud to represent not just my own founder journey, but the broader collective of IT firms, startups, and the technology ecosystem emerging from the Northern Province.
+                </p>
+                <br />
+                <p>
+                    Engaging with the Ministry of Digital Economy, GovTech Sri Lanka, the World Bank Group / IFC, KPMG, and the nation's premier technology leaders reinforced a vital truth: Sri Lanka possesses no shortage of brilliant tech talent. What we urgently require is precise alignment, rapid execution, robust policy support, greater investment access, and a unified national push.
+                </p>
+                <br />
+                <h3>Key IT Sector Takeaways</h3>
+                <ul>
+                    <li><strong>Tech Capacity Building:</strong> Emphasizing the urgent need to upskill our software engineering workforce to meet international tech demands and remote work standards.</li>
+                    <li><strong>Digital Policy Support:</strong> Advocating for streamlined government IT regulations that empower software startups and attract foreign tech investment into Sri Lanka.</li>
+                    <li><strong>Global IT Positioning:</strong> Strategic initiatives to rebrand Sri Lanka as a premier offshore destination for high-end IT services, software development, and engineering excellence.</li>
+                </ul>
+                <br />
+                <p>
+                    Conversations with visionary leaders driving Sri Lanka's digital economy and innovation direction were profoundly insightful. I view this not merely as an opportunity, but as a responsibility to bring greater visibility, collaboration, and opportunities to the Northern ICT and startup ecosystem. The time is now to elevate our regional technology potential onto the global stage. 
+                </p>
+                <br />
+                <p>
+                    Every region must actively participate in Sri Lanka’s $5 Billion digital economy journey, and I am confident that the North is fully prepared to deliver.
+                </p>
+            </>
+        )
+    },
+    {
+        slug: 'the-journey-of-mediman-founder-sugeevan-vsg',
+        title: 'The Journey of MediMan: Building a Global HealthTech Platform from Northern Sri Lanka',
+        summary: "Explore the inspiring story of Sugeevan Vsg, Founder & CEO of MediMan, and his vision to build Sri Lanka’s first globally scaling telehealth super-app.",
+        date: 'Jul 20, 2026',
+        tag: 'Startup',
+        image: '/07/616461161_122158816172961608_7062679356566628926_n.jpg',
+        content: (
+            <>
+                <p className="lead">
+                    Meet <strong>Sugeevan Vsg</strong>, the Founder & CEO of <strong>MediMan</strong> — a pioneering digital healthcare platform entirely designed, engineered, and built right here in Sri Lanka, driven by the audacious vision of becoming the country’s first globally scaling telehealth super-app.
+                </p>
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                        src="/07/616461161_122158816172961608_7062679356566628926_n.jpg"
+                        alt="Sugeevan Vsg, Founder and CEO of MediMan HealthTech platform"
+                        className="w-full h-auto"
+                    />
+                </div>
+                <h2>A Vision Born from Necessity</h2>
+                <p>
+                    MediMan seamlessly connects patients with trusted, verified doctors anytime, anywhere — bridging healthcare gaps both locally and internationally. In an era marked by rising healthcare access challenges, particularly for rural communities and Sri Lankan families residing abroad, MediMan is already proving to be a life-changing digital solution.
+                </p>
+                <br />
+                <p>
+                    Hailing from Jaffna, without major corporate backing or inherited influence, Sugeevan invested his entire life’s savings, countless hours, and every ounce of his software engineering skill to build something profoundly meaningful for our people. 
+                </p>
+                <br />
+                <h3>Scaling from the North to the World</h3>
+                <p>
+                    Today, MediMan has rapidly evolved into a HealthTech platform far beyond what many expected could emerge from the Northern Province. It now stands on the precipice of becoming a future Sri Lankan unicorn, possessing massive global expansion potential.
+                </p>
+                <br />
+                <p>
+                    MediMan is much more than just a medical app; it represents a national mission to connect every Sri Lankan with the right doctor, at the exact right time, eliminating all geographical and administrative barriers. The journey of #StartupSriLanka continues.
+                </p>
+            </>
+        )
+    },
+    {
         slug: 'national-innovation-report-2024-edus-landmark',
         title: 'A Landmark Achievement: EDUS Tutor Pivots National Innovation',
         summary: "EDUS Tutor recognized as the first invention in the National Innovation Report 2024, highlighting our role in transforming online education in Sri Lanka.",
@@ -15,11 +315,11 @@ export const articles: Article[] = [
                     In the heart of Colombo, at the prestigious Jasmine Hall, BMICH, EDUS Tutor etched its name into the annals of innovation history.
                     The occasion? The grand launch of the <strong>National Innovation Report 2024</strong>.
                 </p>
-                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
                     <img
                         src="/national-innovation-report-2024.webp"
                         alt="Sugeevan Receiving National Innovation Report"
-                        className="object-cover w-full h-full"
+                        className="w-full h-auto"
                     />
                 </div>
                 <p>
@@ -93,11 +393,11 @@ export const articles: Article[] = [
                     we have proudly won the <strong>National ICT Awards – NBQSA (2024) in the Education Category! 🏆🎓</strong>
                 </p>
 
-                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
                     <img
                         src="/national-ict-award-2024.webp"
                         alt="EDUS Team Winning National ICT Award"
-                        className="object-cover w-full h-full"
+                        className="w-full h-auto"
                     />
                 </div>
 
@@ -153,11 +453,11 @@ export const articles: Article[] = [
                     into the next phases of growth and innovation.
                 </p>
 
-                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
                     <img
                         src="/slingshot-accelerator-demo-day-2023.webp"
                         alt="Sugeevan at Slingshot Accelerator Demo Day"
-                        className="object-cover w-full h-full"
+                        className="w-full h-auto"
                     />
                 </div>
 
@@ -199,11 +499,11 @@ export const articles: Article[] = [
                     This honor places EDUS at the forefront of Sri Lanka’s rapidly evolving tech scene, alongside delegates from some of the most esteemed organizations in the industry.
                 </p>
 
-                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
                     <img
                         src="/slasscom-xcellerate-2023.webp"
                         alt="EDUS at SLASSCOM Xcellerate Program 2023"
-                        className="object-cover w-full h-full"
+                        className="w-full h-auto"
                     />
                 </div>
 
@@ -252,11 +552,11 @@ export const articles: Article[] = [
                     <strong>EDUS Online Institute</strong> proudly announces its recognition as one of the finalists at <strong>Spiralation 2022</strong>,
                     a significant milestone that underscores the startup’s trajectory towards greater success and innovation in the educational sector.
                 </p>
-                <div className="relative w-full aspect-video my-8 rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative w-full my-8 rounded-2xl overflow-hidden shadow-2xl">
                     <img
                         src="/spiralation-2022-finalist.webp"
                         alt="EDUS Team at Spiralation 2022"
-                        className="object-cover w-full h-full"
+                        className="w-full h-auto"
                     />
                 </div>
                 <p>

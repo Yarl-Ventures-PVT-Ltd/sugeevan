@@ -25,7 +25,7 @@ Built with the latest web technologies, this site serves as a central hub for hi
   - Canonical URL management to prevent duplicate indexing.
 - **Performance Optimized:** Uses Next.js optimization for fonts, images, and scripts.
 - **Conversion Focused:** Integrated Cal.com booking flow and strategic CTA sections.
-- **Content Management:** Markdown/MDX support for insights and articles.
+- **Content Management:** Articles are authored as inline TSX in `data/articles.tsx`. Adding an entry there automatically produces its page, sitemap entry, and static route.
 
 ## 🛠️ Getting Started
 
@@ -63,7 +63,7 @@ sugeevan/
 │   ├── layout.tsx       # Root layout with SEO and metadata
 │   └── page.tsx         # Main landing page composition
 ├── components/          # Reusable UI components (Hero, Navbar, etc.)
-├── data/                # Static data and content files
+├── data/                # articles.tsx - all article content, authored as TSX
 ├── public/              # Static assets (images, icons)
 └── lib/                 # Utility functions (article fetching, etc.)
 ```

@@ -23,6 +23,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             changeFrequency: 'weekly',
             priority: 0.9,
         },
+        {
+            url: 'https://www.sugeevan.com/v',
+            lastModified: new Date(),
+            changeFrequency: 'yearly',
+            priority: 0.6,
+        },
         ...articleUrls,
     ];
 }

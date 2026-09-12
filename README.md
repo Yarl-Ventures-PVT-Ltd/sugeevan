@@ -25,6 +25,7 @@ Built with the latest web technologies, this site serves as a central hub for hi
   - Canonical URL management to prevent duplicate indexing.
 - **Performance Optimized:** Uses Next.js optimization for fonts, images, and scripts.
 - **Conversion Focused:** Integrated Cal.com booking flow and strategic CTA sections.
+- **Digital Business Card:** A standalone card page at `/v`, built for QR and NFC. The printed QR and the NFC tag both encode `https://sugeevan.com/v`, so that route path is fixed and must not be renamed. Save Contact serves `public/v/sugeevan.vcf`.
 - **Content Management:** Articles are authored as inline TSX in `data/articles.tsx`. Adding an entry there automatically produces its page, sitemap entry, and static route.
 
 ## 🛠️ Getting Started
@@ -61,10 +62,12 @@ sugeevan/
 ├── app/                 # Next.js App Router pages and layouts
 │   ├── globals.css      # Global styles and Tailwind directives
 │   ├── layout.tsx       # Root layout with SEO and metadata
-│   └── page.tsx         # Main landing page composition
+│   ├── page.tsx         # Main landing page composition
+│   ├── insights/        # Article index and per-article pages
+│   └── v/               # Digital business card (QR / NFC target)
 ├── components/          # Reusable UI components (Hero, Navbar, etc.)
 ├── data/                # articles.tsx - all article content, authored as TSX
-├── public/              # Static assets (images, icons)
+├── public/              # Static assets (images, icons); v/ holds the card portrait, vcf and QR files
 └── lib/                 # Utility functions (article fetching, etc.)
 ```
 

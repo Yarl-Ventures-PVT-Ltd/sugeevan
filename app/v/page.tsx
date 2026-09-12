@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import Image from 'next/image';
 import {
     UserPlus, Phone, Mail, Globe, MapPin,
@@ -29,6 +29,11 @@ const WhatsappIcon = ({ size = 20 }: { size?: number }) => (
     </svg>
 );
 
+export const viewport: Viewport = {
+    themeColor: '#020617',
+    viewportFit: 'cover',
+};
+
 export const metadata: Metadata = {
     // absolute, so the root layout's "%s | Sugeevan VSG" template does not append a second name
     title: { absolute: 'Sugeevan Vettivelautham | Digital Card' },
@@ -55,7 +60,7 @@ export default function DigitalCardPage() {
     const whatsappUrl = `https://wa.me/${PHONE.replace('+', '')}?text=${encodeURIComponent(WHATSAPP_TEXT)}`;
 
     return (
-        <main className="relative min-h-screen hero-mesh py-8 px-4 overflow-hidden">
+        <main className="relative min-h-screen hero-mesh pt-8 pb-4 px-4 overflow-hidden">
             {/* Ambient glow, matched to the home page treatment but calmer for a single card */}
             <div className="absolute inset-0 opacity-20 pointer-events-none overflow-hidden">
                 <div className="absolute -top-20 left-1/4 w-[22rem] h-[22rem] bg-blue-500 rounded-full blur-[110px] mesh-circle"></div>
@@ -205,7 +210,8 @@ export default function DigitalCardPage() {
                 </section>
 
                 {/* Stays reachable after scrolling the sections, which is the main action on this page */}
-                <div className="sticky bottom-4 mt-4">
+                {/* pb keeps the button off the iPhone home indicator; falls back to 1rem elsewhere */}
+                <div className="sticky bottom-0 mt-6 pb-[max(1rem,env(safe-area-inset-bottom))]">
                     <a
                         href="/v/sugeevan.vcf"
                         download

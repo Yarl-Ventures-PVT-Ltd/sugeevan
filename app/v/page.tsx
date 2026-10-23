@@ -29,6 +29,30 @@ const WhatsappIcon = ({ size = 20 }: { size?: number }) => (
     </svg>
 );
 
+const LinkedinIcon = ({ size = 20 }: { size?: number }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" />
+    </svg>
+);
+
+const FacebookIcon = ({ size = 20 }: { size?: number }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+    </svg>
+);
+
+const InstagramIcon = ({ size = 20 }: { size?: number }) => (
+    <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <rect width="20" height="20" x="2" y="2" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+    </svg>
+);
+
+const SOCIALS = [
+    { icon: LinkedinIcon, label: 'LinkedIn', url: 'https://www.linkedin.com/in/sugeevanv/?originalSubdomain=lk', hover: 'hover:bg-[#0077b5]/20 hover:text-[#0077b5]' },
+    { icon: FacebookIcon, label: 'Facebook', url: 'https://www.facebook.com/sugeevan.vettivelautham/', hover: 'hover:bg-[#1877F2]/20 hover:text-[#1877F2]' },
+    { icon: InstagramIcon, label: 'Instagram', url: 'https://www.instagram.com/sujeevan_vsg/', hover: 'hover:bg-[#E4405F]/20 hover:text-[#E4405F]' },
+];
+
 export const viewport: Viewport = {
     themeColor: '#020617',
     viewportFit: 'cover',
@@ -201,6 +225,25 @@ export default function DigitalCardPage() {
                                     <p className="text-xs text-slate-500 mt-1">Business address</p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+
+                    <div className="px-6 py-6 border-t border-white/10">
+                        <h2 className="text-xs font-bold tracking-widest uppercase text-slate-500 mb-5">Connect</h2>
+                        <div className="grid grid-cols-3 gap-3">
+                            {SOCIALS.map(({ icon: Icon, label, url, hover }) => (
+                                <a
+                                    key={label}
+                                    href={url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label={`Sugeevan Vettivelautham on ${label}`}
+                                    className={`flex flex-col items-center justify-center gap-2 py-4 rounded-2xl glass text-slate-300 transition-all active:scale-95 ${hover}`}
+                                >
+                                    <Icon size={20} />
+                                    <span className="text-[11px] font-semibold">{label}</span>
+                                </a>
+                            ))}
                         </div>
                     </div>
 

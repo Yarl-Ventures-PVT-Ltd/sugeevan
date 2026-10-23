@@ -50,7 +50,7 @@ const InstagramIcon = ({ size = 20 }: { size?: number }) => (
 const SOCIALS = [
     { icon: LinkedinIcon, label: 'LinkedIn', url: 'https://www.linkedin.com/in/sugeevanv/?originalSubdomain=lk', hover: 'hover:bg-[#0077b5]/20 hover:text-[#0077b5]' },
     { icon: FacebookIcon, label: 'Facebook', url: 'https://www.facebook.com/sugeevan.vettivelautham/', hover: 'hover:bg-[#1877F2]/20 hover:text-[#1877F2]' },
-    { icon: InstagramIcon, label: 'Instagram', url: 'https://www.instagram.com/sujeevan_vsg/', hover: 'hover:bg-[#E4405F]/20 hover:text-[#E4405F]' },
+    { icon: InstagramIcon, label: 'Instagram', url: 'https://www.instagram.com/sugeevan_vsg/', hover: 'hover:bg-[#E4405F]/20 hover:text-[#E4405F]' },
 ];
 
 export const viewport: Viewport = {

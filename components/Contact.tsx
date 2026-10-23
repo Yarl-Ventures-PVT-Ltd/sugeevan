@@ -61,7 +61,7 @@ const Contact = () => (
                         <a href="https://www.facebook.com/sugeevan.vettivelautham/" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-[#1877F2]/20 hover:text-[#1877F2] transition-all flex-1 md:flex-none">
                             <FacebookIcon size={24} /> <span className="hidden md:inline">Facebook</span>
                         </a>
-                        <a href="https://www.instagram.com/sujeevan_vsg/" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-[#E4405F]/20 hover:text-[#E4405F] transition-all flex-1 md:flex-none">
+                        <a href="https://www.instagram.com/sugeevan_vsg/" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-[#E4405F]/20 hover:text-[#E4405F] transition-all flex-1 md:flex-none">
                             <InstagramIcon size={24} /> <span className="hidden md:inline">Instagram</span>
                         </a>
                         <a href="https://x.com/SugeevanVSG" target="_blank" rel="noopener noreferrer" className="p-3 md:px-6 md:py-4 glass rounded-2xl font-bold text-lg flex items-center justify-center gap-2 hover:bg-white/20 transition-all flex-1 md:flex-none">
